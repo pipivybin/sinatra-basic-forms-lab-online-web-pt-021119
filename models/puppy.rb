@@ -7,6 +7,7 @@ def initialize(hash)
   @name = hash[:name]
   @breed = hash[:breed]
   @age = hash[:age]
+  @months_old = age
 end
 
 def months_old
