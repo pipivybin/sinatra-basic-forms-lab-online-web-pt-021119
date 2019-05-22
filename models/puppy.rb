@@ -1,7 +1,7 @@
 class Puppy
 
 attr_reader :breed
-attr_accessor :age, :name, :months_old
+attr_accessor :name, :months_old
 
 def initialize(hash)
   @name = hash[:name]
