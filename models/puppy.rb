@@ -9,8 +9,4 @@ def initialize(hash)
   @age = hash[:months_old]
 end
 
-def months_old
-  @age
-end
-
 end
