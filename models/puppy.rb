@@ -6,7 +6,7 @@ attr_accessor :name, :months_old
 def initialize(hash)
   @name = hash[:name]
   @breed = hash[:breed]
-  @age = hash[:months_old]
+  @months_old = hash[:months_old]
 end
 
 end
