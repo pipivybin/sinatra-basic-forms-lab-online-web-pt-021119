@@ -10,7 +10,7 @@ def initialize(hash)
 end
 
 def months_old
-  age
+  @age
 end
 
 end
