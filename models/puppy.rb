@@ -10,5 +10,8 @@ def initialize(hash)
   @months_old = @age
 end
 
+def months_old
+  age
+end
 
 end
