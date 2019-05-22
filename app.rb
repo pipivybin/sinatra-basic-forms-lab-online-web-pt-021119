@@ -12,9 +12,6 @@ end
 
 post '/puppy' do
   @puppy = Puppy.new(params)
-  @puppy.name = params[:name]
-  @puppy.breed = params[:breed]
-  @puppy.age = params[:age]
   params
   erb :display_puppy
 end
