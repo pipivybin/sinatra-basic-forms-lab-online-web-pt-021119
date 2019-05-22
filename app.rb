@@ -12,7 +12,7 @@ end
 
 post '/puppy' do
   @puppy = Puppy.new(params)
-  params
+  
   erb :display_puppy
 end
 
