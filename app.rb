@@ -15,7 +15,7 @@ post '/puppy' do
   @puppy.name = params[:name]
   @puppy.breed = params[:breed]
   @puppy.age = params[:age]
-
+  binding.pry
   erb :display_puppy
 end
 
